@@ -1,0 +1,44 @@
+#page-header{
+    text-align: center;
+}
+nav{
+    display: flexbox;
+    justify-content: space-between;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 5%;
+    text-align: center;
+    justify-content: center;
+}
+#blog-container{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 2rem;
+    grid-template-rows: 25% 25% 25%;
+}
+#page-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+h1,h3,p,aside{
+    text-align: center;
+    justify-content: center;
+}
+i{
+    text-align: center;
+    justify-content: center;
+}

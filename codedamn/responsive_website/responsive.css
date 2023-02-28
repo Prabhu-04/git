@@ -1,0 +1,33 @@
+
+@media only screen and (max-width : 1050px) {
+
+    #container{
+        width: 400px;
+    }
+    #topics-list, main{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    img{
+        height: auto;
+    }
+    img.floatleft{
+        float: none;
+        margin: 0;
+    }
+    nav ul, nav li{
+        display: block;
+    }
+}
+@media only screen and (max-width : 500px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+}
